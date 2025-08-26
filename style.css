@@ -1,0 +1,13 @@
+<style>
+@font-face {
+    font-family: 'GOOP';
+    src: url('GOOP.ttf') format('truetype');
+}
+
+body {
+    font-family: 'GOOP', monospace;
+    background-color: black; /* optional hacker vibes */
+    color: white;
+    text-align: center;
+}
+</style>
