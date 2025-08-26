@@ -1,7 +1,7 @@
-<style>
 @font-face {
     font-family: 'GOOP';
     src: url('GOOP.ttf') format('truetype');
+    font-display: swap;
 }
 
 body {
@@ -9,5 +9,6 @@ body {
     background-color: black; /* optional hacker vibes */
     color: white;
     text-align: center;
+    -webkit-font-smoothing: none;
+    image-rendering: pixelated; /* keeps 12x12 blocky */
 }
-</style>
